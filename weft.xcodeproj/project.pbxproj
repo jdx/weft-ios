@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6A10CAD166AE1ED00264456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A10CAC166AE1ED00264456 /* UIKit.framework */; };
+		E6A10CAF166AE1ED00264456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A10CAE166AE1ED00264456 /* Foundation.framework */; };
+		E6A10CB1166AE1ED00264456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A10CB0166AE1ED00264456 /* CoreGraphics.framework */; };
+		E6A10CB7166AE1ED00264456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6A10CB5166AE1ED00264456 /* InfoPlist.strings */; };
+		E6A10CB9166AE1ED00264456 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A10CB8166AE1ED00264456 /* main.m */; };
+		E6A10CBD166AE1ED00264456 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A10CBC166AE1ED00264456 /* AppDelegate.m */; };
+		E6A10CBF166AE1ED00264456 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A10CBE166AE1ED00264456 /* Default.png */; };
+		E6A10CC1166AE1ED00264456 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A10CC0166AE1ED00264456 /* Default@2x.png */; };
+		E6A10CC3166AE1ED00264456 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6A10CC2166AE1ED00264456 /* Default-568h@2x.png */; };
+		E6A10CC6166AE1ED00264456 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A10CC4166AE1ED00264456 /* MainStoryboard_iPhone.storyboard */; };
+		E6A10CC9166AE1ED00264456 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A10CC7166AE1ED00264456 /* MainStoryboard_iPad.storyboard */; };
+		E6A10CCC166AE1ED00264456 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A10CCB166AE1ED00264456 /* ViewController.m */; };
+		E6A10CD4166AE1ED00264456 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A10CD3166AE1ED00264456 /* SenTestingKit.framework */; };
+		E6A10CD5166AE1ED00264456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A10CAC166AE1ED00264456 /* UIKit.framework */; };
+		E6A10CD6166AE1ED00264456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A10CAE166AE1ED00264456 /* Foundation.framework */; };
+		E6A10CDE166AE1ED00264456 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6A10CDC166AE1ED00264456 /* InfoPlist.strings */; };
+		E6A10CE1166AE1ED00264456 /* weftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A10CE0166AE1ED00264456 /* weftTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6A10CD7166AE1ED00264456 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6A10C9F166AE1ED00264456 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6A10CA7166AE1ED00264456;
+			remoteInfo = weft;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6A10CA8166AE1ED00264456 /* weft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weft.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A10CAC166AE1ED00264456 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6A10CAE166AE1ED00264456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6A10CB0166AE1ED00264456 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6A10CB4166AE1ED00264456 /* weft-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weft-Info.plist"; sourceTree = "<group>"; };
+		E6A10CB6166AE1ED00264456 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6A10CB8166AE1ED00264456 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6A10CBA166AE1ED00264456 /* weft-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "weft-Prefix.pch"; sourceTree = "<group>"; };
+		E6A10CBB166AE1ED00264456 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6A10CBC166AE1ED00264456 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6A10CBE166AE1ED00264456 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6A10CC0166AE1ED00264456 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E6A10CC2166AE1ED00264456 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E6A10CC5166AE1ED00264456 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E6A10CC8166AE1ED00264456 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E6A10CCA166AE1ED00264456 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6A10CCB166AE1ED00264456 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6A10CD2166AE1ED00264456 /* weftTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weftTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A10CD3166AE1ED00264456 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E6A10CDB166AE1ED00264456 /* weftTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "weftTests-Info.plist"; sourceTree = "<group>"; };
+		E6A10CDD166AE1ED00264456 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6A10CDF166AE1ED00264456 /* weftTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = weftTests.h; sourceTree = "<group>"; };
+		E6A10CE0166AE1ED00264456 /* weftTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weftTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6A10CA5166AE1ED00264456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A10CAD166AE1ED00264456 /* UIKit.framework in Frameworks */,
+				E6A10CAF166AE1ED00264456 /* Foundation.framework in Frameworks */,
+				E6A10CB1166AE1ED00264456 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A10CCE166AE1ED00264456 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A10CD4166AE1ED00264456 /* SenTestingKit.framework in Frameworks */,
+				E6A10CD5166AE1ED00264456 /* UIKit.framework in Frameworks */,
+				E6A10CD6166AE1ED00264456 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6A10C9D166AE1ED00264456 = {
+			isa = PBXGroup;
+			children = (
+				E6A10CB2166AE1ED00264456 /* weft */,
+				E6A10CD9166AE1ED00264456 /* weftTests */,
+				E6A10CAB166AE1ED00264456 /* Frameworks */,
+				E6A10CA9166AE1ED00264456 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6A10CA9166AE1ED00264456 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6A10CA8166AE1ED00264456 /* weft.app */,
+				E6A10CD2166AE1ED00264456 /* weftTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6A10CAB166AE1ED00264456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6A10CAC166AE1ED00264456 /* UIKit.framework */,
+				E6A10CAE166AE1ED00264456 /* Foundation.framework */,
+				E6A10CB0166AE1ED00264456 /* CoreGraphics.framework */,
+				E6A10CD3166AE1ED00264456 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6A10CB2166AE1ED00264456 /* weft */ = {
+			isa = PBXGroup;
+			children = (
+				E6A10CBB166AE1ED00264456 /* AppDelegate.h */,
+				E6A10CBC166AE1ED00264456 /* AppDelegate.m */,
+				E6A10CC4166AE1ED00264456 /* MainStoryboard_iPhone.storyboard */,
+				E6A10CC7166AE1ED00264456 /* MainStoryboard_iPad.storyboard */,
+				E6A10CCA166AE1ED00264456 /* ViewController.h */,
+				E6A10CCB166AE1ED00264456 /* ViewController.m */,
+				E6A10CB3166AE1ED00264456 /* Supporting Files */,
+			);
+			path = weft;
+			sourceTree = "<group>";
+		};
+		E6A10CB3166AE1ED00264456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6A10CB4166AE1ED00264456 /* weft-Info.plist */,
+				E6A10CB5166AE1ED00264456 /* InfoPlist.strings */,
+				E6A10CB8166AE1ED00264456 /* main.m */,
+				E6A10CBA166AE1ED00264456 /* weft-Prefix.pch */,
+				E6A10CBE166AE1ED00264456 /* Default.png */,
+				E6A10CC0166AE1ED00264456 /* Default@2x.png */,
+				E6A10CC2166AE1ED00264456 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6A10CD9166AE1ED00264456 /* weftTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6A10CDF166AE1ED00264456 /* weftTests.h */,
+				E6A10CE0166AE1ED00264456 /* weftTests.m */,
+				E6A10CDA166AE1ED00264456 /* Supporting Files */,
+			);
+			path = weftTests;
+			sourceTree = "<group>";
+		};
+		E6A10CDA166AE1ED00264456 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6A10CDB166AE1ED00264456 /* weftTests-Info.plist */,
+				E6A10CDC166AE1ED00264456 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6A10CA7166AE1ED00264456 /* weft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6A10CE4166AE1ED00264456 /* Build configuration list for PBXNativeTarget "weft" */;
+			buildPhases = (
+				E6A10CA4166AE1ED00264456 /* Sources */,
+				E6A10CA5166AE1ED00264456 /* Frameworks */,
+				E6A10CA6166AE1ED00264456 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weft;
+			productName = weft;
+			productReference = E6A10CA8166AE1ED00264456 /* weft.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6A10CD1166AE1ED00264456 /* weftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6A10CE7166AE1ED00264456 /* Build configuration list for PBXNativeTarget "weftTests" */;
+			buildPhases = (
+				E6A10CCD166AE1ED00264456 /* Sources */,
+				E6A10CCE166AE1ED00264456 /* Frameworks */,
+				E6A10CCF166AE1ED00264456 /* Resources */,
+				E6A10CD0166AE1ED00264456 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6A10CD8166AE1ED00264456 /* PBXTargetDependency */,
+			);
+			name = weftTests;
+			productName = weftTests;
+			productReference = E6A10CD2166AE1ED00264456 /* weftTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6A10C9F166AE1ED00264456 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = weft;
+			};
+			buildConfigurationList = E6A10CA2166AE1ED00264456 /* Build configuration list for PBXProject "weft" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6A10C9D166AE1ED00264456;
+			productRefGroup = E6A10CA9166AE1ED00264456 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6A10CA7166AE1ED00264456 /* weft */,
+				E6A10CD1166AE1ED00264456 /* weftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6A10CA6166AE1ED00264456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A10CB7166AE1ED00264456 /* InfoPlist.strings in Resources */,
+				E6A10CBF166AE1ED00264456 /* Default.png in Resources */,
+				E6A10CC1166AE1ED00264456 /* Default@2x.png in Resources */,
+				E6A10CC3166AE1ED00264456 /* Default-568h@2x.png in Resources */,
+				E6A10CC6166AE1ED00264456 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E6A10CC9166AE1ED00264456 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A10CCF166AE1ED00264456 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A10CDE166AE1ED00264456 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6A10CD0166AE1ED00264456 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6A10CA4166AE1ED00264456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A10CB9166AE1ED00264456 /* main.m in Sources */,
+				E6A10CBD166AE1ED00264456 /* AppDelegate.m in Sources */,
+				E6A10CCC166AE1ED00264456 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6A10CCD166AE1ED00264456 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A10CE1166AE1ED00264456 /* weftTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6A10CD8166AE1ED00264456 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6A10CA7166AE1ED00264456 /* weft */;
+			targetProxy = E6A10CD7166AE1ED00264456 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6A10CB5166AE1ED00264456 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6A10CB6166AE1ED00264456 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6A10CC4166AE1ED00264456 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6A10CC5166AE1ED00264456 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E6A10CC7166AE1ED00264456 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6A10CC8166AE1ED00264456 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E6A10CDC166AE1ED00264456 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6A10CDD166AE1ED00264456 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6A10CE2166AE1ED00264456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6A10CE3166AE1ED00264456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6A10CE5166AE1ED00264456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weft/weft-Prefix.pch";
+				INFOPLIST_FILE = "weft/weft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6A10CE6166AE1ED00264456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weft/weft-Prefix.pch";
+				INFOPLIST_FILE = "weft/weft-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E6A10CE8166AE1ED00264456 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/weft.app/weft";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weft/weft-Prefix.pch";
+				INFOPLIST_FILE = "weftTests/weftTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E6A10CE9166AE1ED00264456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/weft.app/weft";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "weft/weft-Prefix.pch";
+				INFOPLIST_FILE = "weftTests/weftTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6A10CA2166AE1ED00264456 /* Build configuration list for PBXProject "weft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A10CE2166AE1ED00264456 /* Debug */,
+				E6A10CE3166AE1ED00264456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6A10CE4166AE1ED00264456 /* Build configuration list for PBXNativeTarget "weft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A10CE5166AE1ED00264456 /* Debug */,
+				E6A10CE6166AE1ED00264456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E6A10CE7166AE1ED00264456 /* Build configuration list for PBXNativeTarget "weftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A10CE8166AE1ED00264456 /* Debug */,
+				E6A10CE9166AE1ED00264456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6A10C9F166AE1ED00264456 /* Project object */;
+}
