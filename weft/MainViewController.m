@@ -40,6 +40,17 @@
         pin.coordinate = CLLocationCoordinate2DMake(lat, lon);
         pin.title = @"My Bike";
         [mapView addAnnotation:pin];
+        CLLocation *loc1 = [[CLLocation alloc] initWithLatitude:lat longitude:lon];
+        double distance = [mapView.userLocation.location distanceFromLocation:loc1];
+        if (distance > 30.0 && hasAlerted != YES) {
+            hasAlerted = YES;
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Bike stolen"
+                                                            message:@"Hey! Your bike is moving and you are not with it!"
+                                                           delegate:nil
+                                                  cancelButtonTitle:@"OK"
+                                                  otherButtonTitles:nil];
+            [alert show];
+        }
     } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, id JSON) {
         NSLog(@"%@", error);
     }];

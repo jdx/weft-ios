@@ -11,6 +11,9 @@
 #import "AFNetworking.h"
 
 @interface MainViewController : UIViewController<MKMapViewDelegate>
+{
+    BOOL hasAlerted;
+}
 
 @property (nonatomic, retain) IBOutlet UIButton *button1;
 @property (nonatomic, retain) IBOutlet UIButton *button2;

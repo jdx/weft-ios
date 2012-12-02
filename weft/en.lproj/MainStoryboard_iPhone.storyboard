@@ -19,7 +19,7 @@
             </objects>
             <point key="canvasLocation" x="-683" y="93"/>
         </scene>
-        <!--Main View Controller-->
+        <!--Main View Controller - weft-->
         <scene sceneID="Wm2-TS-Hhu">
             <objects>
                 <viewController id="IfF-fq-fVs" customClass="MainViewController" sceneMemberID="viewController">
@@ -91,7 +91,7 @@
                             <constraint firstItem="n3H-jD-Tm7" firstAttribute="bottom" secondItem="o6k-A4-se8" secondAttribute="bottom" type="default" id="nEF-mE-IhB"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="a12-0W-lc9"/>
+                    <navigationItem key="navigationItem" title="weft" id="a12-0W-lc9"/>
                     <connections>
                         <outlet property="button1" destination="Ap1-K1-6sE" id="XFl-0E-4Th"/>
                         <outlet property="button2" destination="cEY-mz-Yx9" id="Jht-x1-GSR"/>
