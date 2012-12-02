@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E6168BAA166B187A00446483 /* apple-touch-icon-114x114-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = E6168BA9166B187A00446483 /* apple-touch-icon-114x114-precomposed.png */; };
 		E6168BAC166B188100446483 /* apple-touch-icon-57x57-precomposed.png in Resources */ = {isa = PBXBuildFile; fileRef = E6168BAB166B188100446483 /* apple-touch-icon-57x57-precomposed.png */; };
-		E6168BAF166B1E7700446483 /* }[cf.m in Sources */ = {isa = PBXBuildFile; fileRef = E6168BAE166B1E7700446483 /* }[cf.m */; };
+		E6168BAF166B1E7700446483 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6168BAE166B1E7700446483 /* MainViewController.m */; };
 		E6A10CAD166AE1ED00264456 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A10CAC166AE1ED00264456 /* UIKit.framework */; };
 		E6A10CAF166AE1ED00264456 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A10CAE166AE1ED00264456 /* Foundation.framework */; };
 		E6A10CB1166AE1ED00264456 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A10CB0166AE1ED00264456 /* CoreGraphics.framework */; };
@@ -171,7 +171,7 @@
 		E6168BA9166B187A00446483 /* apple-touch-icon-114x114-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-114x114-precomposed.png"; sourceTree = "<group>"; };
 		E6168BAB166B188100446483 /* apple-touch-icon-57x57-precomposed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon-57x57-precomposed.png"; sourceTree = "<group>"; };
 		E6168BAD166B1E7700446483 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		E6168BAE166B1E7700446483 /* }[cf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "}[cf.m"; sourceTree = "<group>"; };
+		E6168BAE166B1E7700446483 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		E6A10CA8166AE1ED00264456 /* weft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A10CAC166AE1ED00264456 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E6A10CAE166AE1ED00264456 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -556,7 +556,7 @@
 				E6DE93FE166AF6C1001B375E /* FakePhoneViewController.m */,
 				E6DE9587166B0B2F001B375E /* AirshipConfig.plist */,
 				E6168BAD166B1E7700446483 /* MainViewController.h */,
-				E6168BAE166B1E7700446483 /* }[cf.m */,
+				E6168BAE166B1E7700446483 /* MainViewController.m */,
 			);
 			path = weft;
 			sourceTree = "<group>";
@@ -1388,7 +1388,7 @@
 				E6DE9560166B0A9A001B375E /* UASubscriptionTableViewDelegate.m in Sources */,
 				E6DE9561166B0A9A001B375E /* UASubscriptionUI.m in Sources */,
 				E6DE9562166B0A9A001B375E /* UASubscriptionUIUtil.m in Sources */,
-				E6168BAF166B1E7700446483 /* }[cf.m in Sources */,
+				E6168BAF166B1E7700446483 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
